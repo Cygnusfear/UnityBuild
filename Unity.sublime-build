@@ -2,7 +2,7 @@
     "windows": {
         "cmd": [
             "C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
-            "${project_path}\\\\${project_base_name}-csharp.sln",
+            "${project_path}\\\\${project_base_name}.sln",
             "/noconsolelogger",
             "/logger:${packages}\\Unity3D Build System\\SublimeLogger.dll"
         ],
@@ -10,8 +10,8 @@
     },
     "osx": {
         "cmd": [
-            "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
-            "${project_path}/${project_base_name}-csharp.sln",
+            "/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/xbuild",
+            "${project_path}/${project_base_name}.sln",
             "/noconsolelogger",
             "/logger:${packages}/Unity3D Build System/SublimeLogger.dll"
         ],
@@ -23,7 +23,7 @@
             "windows": {
                 "cmd": [
                     "C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
-                    "${project_path}\\\\${project_base_name}-csharp.sln",
+                    "${project_path}\\\\${project_base_name}.sln",
                     "/target:Clean",
                     "/noconsolelogger",
                     "/logger:${packages}\\Unity3D Build System\\SublimeLogger.dll"
@@ -31,8 +31,8 @@
             },
             "osx": {
                 "cmd": [
-                    "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
-                    "${project_path}/${project_base_name}-csharp.sln",
+                    "/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/xbuild",
+                    "${project_path}/${project_base_name}.sln",
                     "/target:Clean",
                     "/noconsolelogger",
                     "/logger:${packages}/Unity3D Build System/SublimeLogger.dll"
